@@ -6,6 +6,7 @@
 <div>
   <p>The project is currently in development and is open for collaboration.</p>
 </div>
+
 ## Technologies used:
 <div>
   <p>This lightweight website is built with the following technologies:
