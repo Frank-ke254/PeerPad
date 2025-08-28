@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Edit Profile | PeerPad</title>
+  <link rel="stylesheet" href="css/edit-profile.css">
+  <script defer src="js/edit-profile.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Edit Your Profile</h1>
+    <form id="editProfileForm">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+
+      <label for="teach">I can teach:</label>
+      <input type="text" id="teach" placeholder="e.g. Public Speaking">
+
+      <label for="learn">I want to learn:</label>
+      <input type="text" id="learn" placeholder="e.g. Graphic Design">
+
+      <label for="location">Location:</label>
+      <input type="text" id="location" placeholder="e.g. Nairobi">
+
+      <label for="bio">Short Bio:</label>
+      <textarea id="bio" rows="4" placeholder="Tell us something about yourself"></textarea>
+
+      <button type="submit">Save Changes</button>
+    </form>
+    <a href="dashboard.html">← Back to Dashboard</a>
+  </div>
+</body>
+</html>

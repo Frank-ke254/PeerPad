@@ -1,0 +1,107 @@
+/* Reset & base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #667eea, #764ba2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container */
+.login {
+  background-color: #fff;
+  padding: 40px 30px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+/* Heading */
+.login h1 {
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* Input Fields */
+.login input {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border 0.3s;
+}
+
+.login input:focus {
+  border-color: #667eea;
+  outline: none;
+}
+
+/* Submit Button */
+#submit button {
+  width: 100%;
+  padding: 12px;
+  background-color: #667eea;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#submit button:hover {
+  background-color: #5a67d8;
+}
+
+/* Divider */
+.login p {
+  margin: 15px 0;
+  color: #555;
+}
+
+/* Socials */
+.socials {
+  display: flex;
+  justify-content: space-around;
+  margin: 15px 0;
+}
+
+.socials p {
+  background-color: #f1f1f1;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.socials p:hover {
+  background-color: #ddd;
+}
+
+/* Sign Up link */
+#signup {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+#signup a {
+  color: #667eea;
+  text-decoration: none;
+}
+
+#signup a:hover {
+  text-decoration: underline;
+}

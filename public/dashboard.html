@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PeerPad | Dashboard</title>
+    <link rel="stylesheet" href="css/dashboard.css">
+    <!-- <link rel="stylesheet" href="css/hamburger.css"> -->
+     <link rel="shortcut icon" href="img/PeerPad.jpg" type="image/x-icon">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">PeerPad</div>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="connections.html">Connections</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <header>
+            <h1>👋 Welcome, Charity</h1>
+        </header>
+
+        <section class="profile">
+            <h2>My Profile</h2>
+            <p><strong>Skills I can teach:</strong>
+            Graphic Design and Ms Word.</p>
+            <p><strong>Skills I can learn:</strong>
+            UI Design and UX Research.</p>
+            <p><strong>Location:</strong> Nairobi.</p>
+            <p><strong>Availabilty:</strong> Weekends and evenings.</p>
+            <button id="editProfileBtn">Edit Profile</button>
+        </section>
+
+        <section class="matches">
+            <h2>New Matches (3)</h2>
+            <div class="match-card">
+                <p><strong>Francis</strong> (UI Design)</p>
+                <p>Nairobi</p>
+                <button class="viewMatchBtn">View</button>
+            </div>
+            <button id="viewAllBtn" class="full-matches-btn">View All Matches</button>
+        </section>
+
+        <section class="matches">
+            <h2>My Badges</h2>
+            <div class="badge">First Match</div>
+            <div class="badge">Learning Streak</div>
+        </section>
+
+    </div>
+
+
+    <script src="js/hamburger.js"></script>
+</body>
+</html>
